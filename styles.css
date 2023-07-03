@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+}
+.main {
+margin-left: 200px;
+}
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #44db7c;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.sidenav a {
+padding: 6px 6px 6px 32px;
+text-decoration: none;
+font-size: 25px;
+color: black;
+display: block;
+border-top:solid white;
+margin-top: 2px;
+
+}
+.sidenav h3{
+text-align:center;
+}
+
+.sidenav a:hover {
+color: #f1f1f1;
+}
+input[type="time"] {
+    display:block;
+}
+.btn-primary {
+    margin-top: 100px;
+}
