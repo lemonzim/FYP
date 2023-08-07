@@ -4,6 +4,9 @@ h1{
 .main {
 margin-left: 200px;
 }
+body{
+    background-color: #fff7f7;
+}
 .sidenav {
     height: 100%;
     width: 200px;
@@ -11,7 +14,7 @@ margin-left: 200px;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #44db7c;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
     overflow-x: hidden;
     padding-top: 20px;
 }
@@ -41,4 +44,9 @@ input[type="time"] {
 img {
     max-width:200px;
     max-height:200px;
+}
+.center {
+    display:flex;
+    justify-content:center;
+    align-items: center;
 }

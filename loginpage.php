@@ -14,10 +14,11 @@
         <style>
             *{box-sizing: border-box;}
             body{
-                background-color:#30b762;
+                background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
                 height: 100%;
             }
             h1{
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
                 color:white;
                 display:flex;
                 align-items: center;
@@ -45,6 +46,15 @@
                 padding: 12px 20px;
                 margin: 8px 0;
                 }
+            button{
+                padding:10px;
+                border-radius: 20%;
+            }
+            .center{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
         </style>
     </head>
     <body>
@@ -56,9 +66,9 @@
             <input type="text" id="id" name="id"><br><br>
             <label for="pass">Password:</label><br>
             <input type="password" id="password" name="password"><br><br>
-            <button class="button" name="login">Login</button>
+            <div class="center"><button class="button" name="login">Login</button></div>
         </form>
-        <div> <a href="register_student.php">Register</a><br><br> <a href="loginstall.php">Login as stall</a></div>
+        <div > <a href="register_student.php">Register</a><br><br> <a href="loginstall.php">Login as stall</a></div>
         </div>
     </div>
         <!--[if lt IE 7]>

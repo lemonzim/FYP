@@ -5,9 +5,10 @@
 
                 $menu = mysqli_query($conn, "SELECT * from menu where stall_id='$id'");
         
-        echo "<h3>$row[1]</h3>";
+        echo "<h3>$stall_query_row[1]</h3>";
         echo"<a href=menu_stall.php>Menu</a>";
         echo"<a href=history_stall.php>Order</a>";
+        echo"<a href=report_stall.php>Report</a>";
         ?>
         </div>
         
