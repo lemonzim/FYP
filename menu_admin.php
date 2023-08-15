@@ -43,7 +43,8 @@
             <td scope='row'>$row2[3]</td>
             <td scope='row'>$row2[4]</td>
             <td>
-                    <a class='btn btn-primary' href='admin_update_student.php?student_id=$row2[0]'>UPDATE</a>
+                    <a class='btn btn-warning' href='admin_update_student.php?student_id=$row2[0]'>UPDATE</a>
+                    <a class='btn btn-danger' href='admin_delete_student.php?student_id=$row2[0]'>DELETE</a>
             </td>
         </tr>";
     }
@@ -51,6 +52,7 @@
 
 </tbody>
 </table>
+<a class='btn btn-primary' href='admin_add_student.php?'>ADD</a>
 </div>
        
     <?php

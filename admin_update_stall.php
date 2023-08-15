@@ -53,8 +53,13 @@
         <legend class="col-form-label col-sm-2 pt-0">Update Stall</legend>
        
         <div class="mb-3">
-            <label for="stall" class="form-label">Stall ID</label>
-            <input type="text" class="form-control" name="stall_id" readonly value="<?php echo "{$stall_info_row['stall_id']}"; ?>">
+            <label for="stall" class="form-label">Old Stall ID</label>
+            <input type="text" class="form-control" name="old_stall_id" readonly value="<?php echo "{$stall_info_row['stall_id']}"; ?>">
+        </div>
+
+        <div class="mb-3">
+            <label for="stall" class="form-label">New Stall ID</label>
+            <input type="text" class="form-control" name="new_stall_id" value="<?php echo "{$stall_info_row['stall_id']}"; ?>">
         </div>
 
         <div class="mb-3">

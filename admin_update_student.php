@@ -51,10 +51,15 @@
         
     <div class='flex'>
         <legend class="col-form-label col-sm-2 pt-0">Update Student</legend>
-       
+        
         <div class="mb-3">
-            <label for="stall" class="form-label">Student ID</label>
-            <input type="text" class="form-control" name="student_id" readonly value="<?php echo "{$student_info_row['student_id']}"; ?>">
+            <label for="stall" class="form-label">Old Student ID</label>
+            <input type="text" class="form-control" name="old_student_id" readonly value="<?php echo "{$student_info_row['student_id']}"; ?>">
+        </div>
+
+        <div class="mb-3">
+            <label for="stall" class="form-label">New Student ID</label>
+            <input type="text" class="form-control" name="new_student_id" value="<?php echo "{$student_info_row['student_id']}"; ?>">
         </div>
 
         <div class="mb-3">
